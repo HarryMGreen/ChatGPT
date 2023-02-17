@@ -1,35 +1,35 @@
 {
-  "version": "v0.10.3",
-  "notes": "> Note: As of now the ChatGPT desktop app has added a lot of exciting features and it continues to improve, as the app grows it has gone far beyond what ChatGPT was intended for. I want to make it the ultimate goal that any website can be easily wrapped to the desktop through user customization. So it needed an international user guide to guide users to use it more professionally. And https://app.nofwl.com is the manual for the app, which will be built into the app (`Menu -> Window -> ChatGPT User's Guide`) so you can access it anytime. It's just starting at the moment, so stay tuned.\n\nFix:\n\n- Incompatible configuration data causes program crashes (https://github.com/lencx/ChatGPT/issues/295)\n\nFeat:\n\n- Silent copy text\n- Markdown export support distinguishes between users and bots (https://github.com/lencx/ChatGPT/issues/233)",
-  "pub_date": "2023-02-05T08:11:11.161Z",
+  "version": "v0.11.0",
+  "notes": "Fix:\n\n- User-defined close button behavior (exit or minimize) (`Control Center -> Settings -> Main Window -> Close Exit`). (https://github.com/lencx/ChatGPT/issues/359)\n- Markdown content layout (https://github.com/lencx/ChatGPT/issues/378)\n\nFeat:\n\n- Set the main window and tray window size (https://github.com/lencx/ChatGPT/issues/405)\n- Save window positions and sizes and restore them when the app is reopened (`Control Center -> Settings -> General -> Save Window State`)\n- macOS support for aarch64 installer (https://github.com/lencx/ChatGPT/issues/380)",
+  "pub_date": "2023-02-17T03:21:13.536Z",
   "platforms": {
     "win64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWQvMExrVFJVZHF1TW9ELzh6cVZ4RG5LMGdUNUdza215a3ZibzQ3R3l1blFNYjIvcTcvYkt1Qyt6L2RuZWFLWUJ3dmpoU2d4aDRML1Bpc3NjVVhEUHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0NDQ5CWZpbGU6Q2hhdEdQVF8wLjEwLjNfeDY0X2VuLVVTLm1zaS56aXAKMThOOU9CN2lJemhJZEhCWGhTQWdYVFZQdGdaS1dvYjQxaVFvYU1lczlUVzF1dWZGaSthYWpiVzdTNFJjd1ZaVmF5VVMzdFNjeGdrYzI0eWg4RU9FQXc9PQo=",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/ChatGPT_0.10.3_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVhJclBoVERROHFUQ1p5TnJVVXowSUJLSkpzWjd2aXR5dFo2VkFxYWxHdzVKNWdTWFFFMzEzeTY5dmZqZVkwYTFBaFVnaHV0dmpyUkQ1cHVJcU1nMVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzODY5CWZpbGU6Q2hhdEdQVF8wLjExLjBfeDY0X2VuLVVTLm1zaS56aXAKTFBoVkRtUmRmRHNkajhMb296TWMxWWJUSlZvQjh2QVdXdG5wRDYzVFJwRERrZk5yR0puZ0Zxc1RzTk8rcWdjZXR5NkFVZVRZNGhhNmNLcm5wcHVzQVE9PQo=",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_windows_x86_64.msi.zip"
     },
     "linux": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVVOK0RHQ1JvTTJEN1B3dExlM3lPeEZFRTMwTGQ3T09iUWlScXJOMFVjOFZhR0huYXJBUTJmT3hMVlBtSVVhaTZHczVOZGc1b0ZyRjRZSW5wME16NGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0MTU1CWZpbGU6Y2hhdC1ncHRfMC4xMC4zX2FtZDY0LkFwcEltYWdlLnRhci5negpwNWU3QktOdzN1eEU2TWxzS0Q2emFHVDdrcnRVVCsyZ2NFekpJSGVrNVg4b3cvYmhNeW1yZzAwRXB1bWd5QTgwUHZnMnVwTHo1ajdqMm5uMHJDZTVDQT09Cg==",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/chat-gpt_0.10.3_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVpLejQ4TzFZY2I0bGFzeHJnR2JTdytMSlBnelBxdCtWMGRaQXFBMTVDRjBPTStRMFJSQzM3YjhzMUVyc3M2QjNWY0treGIzTk9YNjh0TXhxVjdhZHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzNjUyCWZpbGU6Y2hhdC1ncHRfMC4xMS4wX2FtZDY0LkFwcEltYWdlLnRhci5nego0R1dLc3k2MHVKdVV1dkx4Q09OUUQvUmgyWlFaOTExSjNDdTFNbHlDL1l6Vmo5d1V2UXQ0a3UwTFNHRittQ1RkSzlGR2oxLzJqK0NGNFJLR3dXNWRDQT09Cg==",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_linux_x86_64.AppImage.tar.gz"
     },
     "darwin": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWZvU0FBRC9GVHRuSzkzcGpnVGJuczJnQUNYMkF0eitaY0gwcENwbSt4b29sVDNRRGFSVDQ0dG1NMVFWMlZ2TGtPOU5KVTE0NXYzR1o5dUIxUHQ3bUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0NjExCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CjBKcmx6aGxkWjVtd3pEbXpBS21pd3Q5dUkxNkpjU1BtNUgwTVFBem1zNU4vcEZweG1wUFFjYWM5bHJrYnVWbVo1bEx4UmZMUXVjZm5Kdm9PdXpDV0F3PT0K",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/ChatGPT.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWRYVmZGTmtVR0FlM3FrRHloMGI0WG9UR0U1dUpWWm4weE54T01aRG9CdGNnNTdUVHlBUlJ2S1dOYXlUZEJFSzdHOUpJZzhVWmJXczJtNHJCT2dKMGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzNzEyCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CmRnWGRBNkxXQlQrOURYT0puRmpJVndkOXl5VGVCeXUxaXVXeXVLTlF0WDhWNlZuanR4aXpwVXFEalRZOTI4UzNCWmtjMElNSkNVTGxhNG1mdlM1b0JRPT0K",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_macos_x86_64.app.tar.gz"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWZvU0FBRC9GVHRuSzkzcGpnVGJuczJnQUNYMkF0eitaY0gwcENwbSt4b29sVDNRRGFSVDQ0dG1NMVFWMlZ2TGtPOU5KVTE0NXYzR1o5dUIxUHQ3bUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0NjExCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CjBKcmx6aGxkWjVtd3pEbXpBS21pd3Q5dUkxNkpjU1BtNUgwTVFBem1zNU4vcEZweG1wUFFjYWM5bHJrYnVWbVo1bEx4UmZMUXVjZm5Kdm9PdXpDV0F3PT0K",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/ChatGPT.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWRuWDJqVUcrcktGRGgvY0VVdHBYRUZYZ210R0J6Rkt3bVRES3l3YjltanJjQTRUdEdyMktKcitDc1NHcnRvYVczYXJVdmtabXFrZkhIZ2JvUmlUTkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzNTkzCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CjJET1FIMDRYbHIrem94OFlPSlo4REZmUk5lQ3JzWXdsTkUrWlNXdnpDZU9VL0l3SUdNWDNGUG9qQkxHejc0N2tsVDVSSVdRbng4NnBSK0RvSENJR0F3PT0K",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_macos_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWZvU0FBRC9GVHRuSzkzcGpnVGJuczJnQUNYMkF0eitaY0gwcENwbSt4b29sVDNRRGFSVDQ0dG1NMVFWMlZ2TGtPOU5KVTE0NXYzR1o5dUIxUHQ3bUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0NjExCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CjBKcmx6aGxkWjVtd3pEbXpBS21pd3Q5dUkxNkpjU1BtNUgwTVFBem1zNU4vcEZweG1wUFFjYWM5bHJrYnVWbVo1bEx4UmZMUXVjZm5Kdm9PdXpDV0F3PT0K",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/ChatGPT.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWRYVmZGTmtVR0FlM3FrRHloMGI0WG9UR0U1dUpWWm4weE54T01aRG9CdGNnNTdUVHlBUlJ2S1dOYXlUZEJFSzdHOUpJZzhVWmJXczJtNHJCT2dKMGdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzNzEyCWZpbGU6Q2hhdEdQVC5hcHAudGFyLmd6CmRnWGRBNkxXQlQrOURYT0puRmpJVndkOXl5VGVCeXUxaXVXeXVLTlF0WDhWNlZuanR4aXpwVXFEalRZOTI4UzNCWmtjMElNSkNVTGxhNG1mdlM1b0JRPT0K",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_macos_x86_64.app.tar.gz"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVVOK0RHQ1JvTTJEN1B3dExlM3lPeEZFRTMwTGQ3T09iUWlScXJOMFVjOFZhR0huYXJBUTJmT3hMVlBtSVVhaTZHczVOZGc1b0ZyRjRZSW5wME16NGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0MTU1CWZpbGU6Y2hhdC1ncHRfMC4xMC4zX2FtZDY0LkFwcEltYWdlLnRhci5negpwNWU3QktOdzN1eEU2TWxzS0Q2emFHVDdrcnRVVCsyZ2NFekpJSGVrNVg4b3cvYmhNeW1yZzAwRXB1bWd5QTgwUHZnMnVwTHo1ajdqMm5uMHJDZTVDQT09Cg==",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/chat-gpt_0.10.3_amd64.AppImage.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVpLejQ4TzFZY2I0bGFzeHJnR2JTdytMSlBnelBxdCtWMGRaQXFBMTVDRjBPTStRMFJSQzM3YjhzMUVyc3M2QjNWY0treGIzTk9YNjh0TXhxVjdhZHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzNjUyCWZpbGU6Y2hhdC1ncHRfMC4xMS4wX2FtZDY0LkFwcEltYWdlLnRhci5nego0R1dLc3k2MHVKdVV1dkx4Q09OUUQvUmgyWlFaOTExSjNDdTFNbHlDL1l6Vmo5d1V2UXQ0a3UwTFNHRittQ1RkSzlGR2oxLzJqK0NGNFJLR3dXNWRDQT09Cg==",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_linux_x86_64.AppImage.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOWQvMExrVFJVZHF1TW9ELzh6cVZ4RG5LMGdUNUdza215a3ZibzQ3R3l1blFNYjIvcTcvYkt1Qyt6L2RuZWFLWUJ3dmpoU2d4aDRML1Bpc3NjVVhEUHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc1NTg0NDQ5CWZpbGU6Q2hhdEdQVF8wLjEwLjNfeDY0X2VuLVVTLm1zaS56aXAKMThOOU9CN2lJemhJZEhCWGhTQWdYVFZQdGdaS1dvYjQxaVFvYU1lczlUVzF1dWZGaSthYWpiVzdTNFJjd1ZaVmF5VVMzdFNjeGdrYzI0eWg4RU9FQXc9PQo=",
-      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.10.3/ChatGPT_0.10.3_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMGhYQWhsY0VNOVhJclBoVERROHFUQ1p5TnJVVXowSUJLSkpzWjd2aXR5dFo2VkFxYWxHdzVKNWdTWFFFMzEzeTY5dmZqZVkwYTFBaFVnaHV0dmpyUkQ1cHVJcU1nMVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNjc2NjAzODY5CWZpbGU6Q2hhdEdQVF8wLjExLjBfeDY0X2VuLVVTLm1zaS56aXAKTFBoVkRtUmRmRHNkajhMb296TWMxWWJUSlZvQjh2QVdXdG5wRDYzVFJwRERrZk5yR0puZ0Zxc1RzTk8rcWdjZXR5NkFVZVRZNGhhNmNLcm5wcHVzQVE9PQo=",
+      "url": "https://github.com/HarryMGreen/ChatGPT/releases/download/v0.11.0/ChatGPT_0.11.0_windows_x86_64.msi.zip"
     }
   }
 }
