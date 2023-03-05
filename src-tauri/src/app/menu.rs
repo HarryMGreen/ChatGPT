@@ -143,6 +143,7 @@ pub fn init() -> Menu {
         .into(),
       CustomMenuItem::new("clear_conf".to_string(), "Clear Config").into(),
       MenuItem::Separator.into(),
+      CustomMenuItem::new("nofwl".to_string(), "NoFWL Desktop Application").into(),
       CustomMenuItem::new("buy_coffee".to_string(), "Buy lencx a coffee").into(),
     ]),
   );
@@ -257,6 +258,7 @@ pub fn menu_handler(event: WindowMenuEvent<tauri::Wry>) {
       conf::APP_WEBSITE.into(),
       None,
     ),
+    "nofwl" => open(&app, conf::NOFWL_APP.to_string()),
     "buy_coffee" => open(&app, conf::BUY_COFFEE.to_string()),
     "popup_search" => {
       let app_conf = AppConf::read();
@@ -423,13 +425,13 @@ pub fn tray_menu() -> SystemTray {
           "hide_dock_icon".to_string(),
           "Hide Dock Icon",
         ))
-        .add_item(CustomMenuItem::new("show_core".to_string(), "Show ChatGPT"));
+        .add_item(CustomMenuItem::new("show_core".to_string(), "Show Window"));
     }
 
     SystemTray::new().with_menu(
       tray_menu
         .add_native_item(SystemTrayMenuItem::Separator)
-        .add_item(CustomMenuItem::new("quit".to_string(), "Quit ChatGPT")),
+        .add_item(CustomMenuItem::new("quit".to_string(), "Quit")),
     )
   } else {
     SystemTray::new().with_menu(
@@ -438,9 +440,9 @@ pub fn tray_menu() -> SystemTray {
           "control_center".to_string(),
           "Control Center",
         ))
-        .add_item(CustomMenuItem::new("show_core".to_string(), "Show ChatGPT"))
+        .add_item(CustomMenuItem::new("show_core".to_string(), "Show Window"))
         .add_native_item(SystemTrayMenuItem::Separator)
-        .add_item(CustomMenuItem::new("quit".to_string(), "Quit ChatGPT")),
+        .add_item(CustomMenuItem::new("quit".to_string(), "Quit")),
     )
   }
 }
